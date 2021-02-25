@@ -2,3 +2,10 @@ Dependencias:
 
 - mongoose
 - nodemon
+- cors
+- express-validator
+- bcryptjs
+- jsonwebtoken
+- envi
+- express-fileupload
+- uuid
