@@ -28,6 +28,7 @@ const postUsuario = async (req, res = response) => {
 
     const {email, password} = req.body;
 
+    // try
     try {
         const existeEmail = await Usuario.findOne({email});
 
